@@ -21,7 +21,7 @@ public class Base {
 
         properties.load(a);
 
-        String browserName =  System.getProperty("browser"); //this command for maven that i can start my test from terminal
+        String browserName =  properties.getProperty("browser");
 
 
         if (browserName.equals("chrome")) {
