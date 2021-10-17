@@ -179,6 +179,6 @@ public class Runner {
 
 **1. Clone project from Github**
 
-git clone https://github.com/CJ-N-a/Youtube.git
+git clone git@github.com:CJ-N-a/Youtube.git
 
 **2. Run project from IDE Test runner class;**
