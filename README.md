@@ -167,7 +167,7 @@ public Properties properties;
         driver.close();
         driver.quit();
     }
-**4. runner package with Junit ApiRunner and UiRunner classes:**
+**4. runner package with Junit:**
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({UiTests.class})
